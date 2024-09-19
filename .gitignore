@@ -1,2 +1,10 @@
+# Files to ignore for git
 .env
 credentials.json
+
+# .venv folders to ignore
+./bin/*
+./lib/*
+./lib64/*
+./include/*
+pyvenv.cfg
