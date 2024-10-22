@@ -84,7 +84,8 @@ if __name__ == "__main__":
                       help="Subject line of email")
   parser.add_argument('-m', '--message',
                       required=True,
-                      help="File that contains the message body of email.")
+                      default='message.txt',
+                      help="File that contains the message body of email. Defaults to message.txt")
   parser.add_argument('-t', '--token_file',
                       required=False,
                       default='token.json',

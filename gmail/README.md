@@ -53,7 +53,7 @@ The terminal will output a URL for you to sign in. Click the URL, and sign in to
 Ninth, authorize the application to run on your account.
 
 ## Send Emails
-This section details how to send emails.
+This section details how to send emails. For example usage, see [Example Usage](#example-usage).
 
 If you haven't already set up your machine to send emails, please see [Setup](#setup).
 
@@ -99,9 +99,9 @@ A prettier version of this command is:
 
 ```shell
 python3 send_message.py             \
-    --sender "sender@email.com"     \
+    --sender "sender@email.com" \
     --receiver "receiver@email.com" \
-    --subject "Hello World"         \
-    --message "message.txt"         \
+    --subject "Hello World" \
+    --message "message.txt" \
     --token_file "token.json"
 ```
